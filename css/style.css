@@ -31,7 +31,6 @@ img {
 
 /* 基本レイアウト */
 
-
 /* これを入れるとメニューでの移動がスムーズになる */
 html {
   scroll-behavior: smooth;
@@ -172,11 +171,9 @@ header {
   color: #4fadd4;
 }
 
-
 .site-menu a:hover {
   color: #a9f4e5;
 }
-
 
 .site-menu h2 {
   color: #666;
@@ -245,7 +242,6 @@ header {
   height: 40px;
   margin-bottom: 80px;
 }
-
 
 /* 更新履歴 */
 
@@ -358,140 +354,6 @@ header {
   background-color: #fad470;
 }
 
-/* メッセージ */
-
-.form-area {
-  margin: 10px;
-}
-
-.form-area dt {
-  border-bottom: dashed 2px;
-  margin: 0 5px 10px;
-}
-
-.form-area dd {
-  margin-bottom: 20px;
-}
-
-.input-text {
-  -webkit-appearance: none;
-  width: calc(100% - 20px);
-  color: #3c2810;
-  background-color: #fff;
-  border: none;
-  font-size: 16px;
-  line-height: 2;
-  border-radius: 5px;
-  margin: 5px 10px 0;
-  padding: 5px;
-}
-
-.input-message {
-  -webkit-appearance: none;
-  width: calc(100% - 20px);
-  height: 150px;
-  color: #3c2810;
-  background-color: #fff;
-  border: none;
-  font-size: 16px;
-  line-height: 2;
-  border-radius: 5px;
-  margin: 5px 10px 0;
-  padding: 5px;
-}
-
-
-.input-text:focus,
-.input-message:focus {
-  outline: 1px solid #f49048;
-}
-
-.form-area dd select,
-.form-area dd .radio-button,
-.form-area dd .check-box {
-  margin-left: 10px;
-  margin-right: 5px;
-}
-
-.radio-button input,
-.check-box input {
-  margin-right: 5px;
-}
-
-.submit-button {
-  -webkit-appearance: none;
-  color: #3c2810;
-  background-color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 10px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.submit-button:hover {
-  background-color: #fad470;
-}
-
-.radio-button, .check-box {
-  accent-color: #b83d14;
-}
-
-.selectbox-002 {
-  position: relative;
-}
-
-.selectbox-002::before,
-.selectbox-002::after {
-  position: absolute;
-  content: '';
-  pointer-events: none;
-}
-
-.selectbox-002::before {
-  right: 0;
-  display: inline-block;
-  width: 2.8em;
-  height: 2.8em;
-  border-radius: 0 8px 8px 0;
-  background-color: #f49048;
-  content: '';
-}
-
-.selectbox-002::after {
-  position: absolute;
-  top: 50%;
-  right: 1.4em;
-  transform: translate(50%, -50%) rotate(45deg);
-  width: 6px;
-  height: 6px;
-  border-bottom: 3px solid #fff;
-  border-right: 3px solid #fff;
-  content: '';
-}
-
-.selectbox-002 select {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  max-width: calc(100% - 2.8em);
-  height: 2.8em;
-  padding: .4em 3.6em .4em .8em;
-  border: none;
-  border-radius: 8px;
-  color: #3c2810;
-  font-size: 1em;
-  cursor: pointer;
-  background-color: #fff;
-  overflow: hidden;
-}
-
-.selectbox-002 select:focus {
-  outline: 1px solid #f49048;
-}
-
-
 /* リンク */
 .bn-gallery {
   margin-bottom: 20px;
@@ -570,6 +432,7 @@ header {
 }
 
 /* このダミーエリアがあると最後のトーストもおしりまでスクロールできます */
+
 .dummy-area {
   height: 180px;
 }
