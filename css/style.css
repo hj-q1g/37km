@@ -121,6 +121,14 @@ textarea {
   font-family: 'RocknRoll One', sans-serif;
 }
 
+.photoimg img{
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin: 5px
+}
+
 /* ヘッダー */
 
 header {
