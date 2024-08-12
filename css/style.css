@@ -352,6 +352,42 @@ header {
   background-color: #fad470;
 }
 
+/* メッセージ */
+
+.input-message {
+  -webkit-appearance: none;
+  width: calc(100% - 20px);
+  height: 150px;
+  color: #3c2810;
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  line-height: 2;
+  border-radius: 5px;
+  margin: 5px 10px 0;
+  padding: 5px;
+}
+
+.input-text:focus,
+.input-message:focus {
+  outline: 1px solid #f49048;
+}
+
+.submit-button {
+  -webkit-appearance: none;
+  color: #3c2810;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-button:hover {
+  background-color: #fad470;
+}
+
 /* リンク */
 .bn-gallery {
   margin-bottom: 20px;
