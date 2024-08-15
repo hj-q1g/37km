@@ -521,6 +521,7 @@ header {
 
   .toast-text {
     margin: 10px 20px 0 20px;
+    font-size: 16px;
   }
 
 }
