@@ -205,9 +205,10 @@ header {
 
 .title-area img {
   position: absolute;
-  display: flex;
   width: 800px;
-  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* 記事エリア */
