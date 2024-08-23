@@ -133,19 +133,19 @@ textarea {
     outline: 2px dashed #89613e;
     outline-offset: -8px;
     border-radius: 10px;
-    background-color: #e9e09d;
+    background-color: #fff;
     color: #3c2810;
 }
 
 .top:before {
     position: absolute;
     top: 100%;
-    left: 30px;
+    left: 40%;
     height: 0;
     width: 0;
     border-style: solid;
     border-color: transparent;
-    border-top-color: #e9e09d;
+    border-top-color: #fff;
     border-width: 8px;
     content: "";
 }
