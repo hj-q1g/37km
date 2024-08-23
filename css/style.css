@@ -70,14 +70,6 @@ h5 {
   margin-top: 10px;
 }
 
-h1 {
-  font-size: 70px;
-  font-weight: normal;
-  color: #fffbd0;
-  -webkit-text-stroke: 3px #e2843c;
-  text-stroke: 3px #e2843c;
-}
-
 h2 {
   text-shadow: 0 0 5px white;
   padding: 0.2em;
@@ -133,6 +125,29 @@ textarea {
   border-radius: 30px;
   object-fit: cover;
   margin: 0px
+}
+
+.top {
+    position: relative;
+    padding: 1rem;
+    outline: 2px dashed #89613e;
+    outline-offset: -8px;
+    border-radius: 10px;
+    background-color: #e9e09d;
+    color: #3c2810;
+}
+
+.top:before {
+    position: absolute;
+    top: 100%;
+    left: 30px;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: #e9e09d;
+    border-width: 8px;
+    content: "";
 }
 
 /* ヘッダー */
