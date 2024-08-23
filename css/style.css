@@ -127,6 +127,8 @@ textarea {
   margin: 0px
 }
 
+/* トップ */
+
 .top {
     position: relative;
     padding: 1rem;
@@ -220,7 +222,7 @@ header {
 
 .title-area img {
   position: absolute;
-  width: 800px;
+  width: 700px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -336,9 +338,7 @@ header {
   display: flex;
 }
 
-.playbutton,
-.stopbutton,
-.loopbutton {
+.playbutton {
   width: 50px;
   height: 50px;
   text-align: center;
@@ -352,13 +352,7 @@ header {
   cursor: pointer;
 }
 
-.loopbutton.active {
-  color: #e2843c;
-}
-
-.playbutton:hover,
-.stopbutton:hover,
-.loopbutton:hover {
+.playbutton:hover,{
   background-color: #fad470;
 }
 
@@ -526,7 +520,7 @@ header {
 
   .title-area img {
     width: 90%;
-}
+  }
 
 }
 
