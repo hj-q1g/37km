@@ -146,7 +146,7 @@ textarea {
     border-style: solid;
     border-color: transparent;
     border-top-color: #fff;
-    border-width: 8px;
+    border-width: 16px;
     content: "";
 }
 
