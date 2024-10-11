@@ -238,7 +238,7 @@ header {
 
 .toast-area {
   width: 700px;
-  background-image: url(../img/toast_main.png);
+  background-image: url(../image/items/toast_main.png);
   background-size: 100%;
 }
 
@@ -254,7 +254,7 @@ header {
 }
 
 .toast-header {
-  background-image: url(../img/toast_header.png);
+  background-image: url(../image/items/toast_header.png);
   background-size: cover;
   width: 700px;
   height: 49px;
@@ -263,7 +263,7 @@ header {
 }
 
 .toast-footer {
-  background-image: url(../img/toast_footer.png);
+  background-image: url(../image/items/toast_footer.png);
   background-size: cover;
   width: 700px;
   height: 40px;
