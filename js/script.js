@@ -8,10 +8,10 @@ function updatePlayButtonIcon() {
     var audio = players[i].querySelector("audio");
 
     if (currentAudio && currentAudio !== audio) {
-      playButton.innerHTML = '♪';
+      playButton.innerHTML = '<i class="las la-music"></i>';
     } else {
       if (audio.paused) {
-        playButton.innerHTML = '♪';
+        playButton.innerHTML = '<i class="las la-music"></i>';
       } else {
         playButton.innerHTML = '×';
       }
