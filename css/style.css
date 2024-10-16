@@ -168,8 +168,8 @@ header {
   height: 70px;
   background-image: url(../image/items/toast_lever.png);
   background-size: 100%;
-  top: 30px;
-  right: -10px;
+  top: 40px;
+  right: -80px;
   z-index: 98;
 }
 
