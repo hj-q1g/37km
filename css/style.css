@@ -195,7 +195,7 @@ header {
 
 .site-menu a {
   color: #FFD4CD;
-  font-size: 90px;
+  font-size: 60px;
 }
 
 .site-menu a:hover {
@@ -206,7 +206,7 @@ header {
 
 .title-area {
   position: relative;
-  height: 80vh;
+  height: 90vh;
 }
 
 .title-area img {
