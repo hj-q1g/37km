@@ -184,30 +184,21 @@ header {
 }
 
 .site-menu ul {
-  margin: 0 15px 100px 15px;
+  margin: 15px 15px;
 }
 
 .site-menu ul li {
   display: inline;
-  margin-right: 5px;
+  margin-right: 10px;
   line-height: 1.8em;
 }
 
 .site-menu a {
-  color: #4fadd4;
+  color: #FFD4CD;
 }
 
 .site-menu a:hover {
-  color: #a9f4e5;
-}
-
-.site-menu h2 {
-  color: #666;
-  padding: 0;
-  background: none;
-  border: none;
-  margin-left: 30px;
-  margin-bottom: 0;
+  color: #fff;
 }
 
 /* タイトルエリア */
