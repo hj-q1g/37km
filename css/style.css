@@ -164,11 +164,12 @@ header {
 
 .lever {
   position: absolute;
-  width: 100px;
-  height: 60px;
+  width: 90px;
+  height: 70px;
   background-image: url(../image/items/toast_lever.png);
-  top: 15px;
-  right: -20px;
+  background-size: 100%;
+  top: 60px;
+  right: -90px;
   z-index: 98;
 }
 
@@ -177,6 +178,7 @@ header {
   width: 900px;
   height: 130px;
   background-image: url(../image/items/toast_body.png);
+  background-size: 100%;
   z-index: 100;
   margin: 0 auto;
 }
