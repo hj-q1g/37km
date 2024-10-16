@@ -183,7 +183,7 @@ header {
 }
 
 .site-menu ul {
-  width: 1em;
+  width: 800px;
   margin: auto;
 }
 
@@ -438,7 +438,7 @@ header {
   .site-menu {
     bottom: 0px;
     width: 90%;
-    height: 80px;
+    height: 1vh;
     aspect-ratio: 1/0.8;
     object-fit: fill;
   }
