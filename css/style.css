@@ -169,13 +169,13 @@ header {
   background-image: url(../image/items/toast_lever.png);
   background-size: 100%;
   top: 40px;
-  right: -80px;
+  right: -100px;
   z-index: 98;
 }
 
 .site-menu {
   position: relative;
-  width: 1000px;
+  width: 900px;
   height: 100px;
   background-image: url(../image/items/toast_body.png);
   background-size: 100%;
