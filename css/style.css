@@ -183,21 +183,22 @@ header {
 }
 
 .site-menu ul {
-  margin: 60px 50px;
+  top: 50%;
+  left: 50%;
 }
 
 .site-menu ul li {
   display: inline;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .site-menu a {
-  color: #6F0E0E;
+  color: #FBE8BA;
   font-size: 40px;
 }
 
 .site-menu a:hover {
-  color: #FFBDBD;
+  color: #FFBC5C;
 }
 
 /* タイトルエリア */
@@ -428,21 +429,24 @@ header {
 
   .lever {
     right: 0px;
+    bottom: 0px;
     width: 20px;
-    height: 50px;
+    aspect-ratio: 1/0.3;
     object-fit: fill;
   }
 
   .site-menu {
-    width: 95%;
+    bottom: 0px;
+    width: 90%;
     height: 80px;
+    aspect-ratio: 1/0.8;
     object-fit: fill;
   }
 
   .toast-area,
   .toast-header,
   .toast-footer {
-    width: 85%;
+    width: 80%;
     background-size: 100%;
   }
 
