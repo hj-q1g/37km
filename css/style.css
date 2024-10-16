@@ -168,7 +168,7 @@ header {
   height: 70px;
   background-image: url(../image/items/toast_lever.png);
   background-size: 100%;
-  top: 40px;
+  top: 50px;
   right: -40px;
   z-index: 98;
 }
@@ -195,6 +195,7 @@ header {
 
 .site-menu a {
   color: #FFD4CD;
+  font-size: 30px;
 }
 
 .site-menu a:hover {
@@ -205,7 +206,7 @@ header {
 
 .title-area {
   position: relative;
-  height: 60vh;
+  height: 100vh;
 }
 
 .title-area img {
