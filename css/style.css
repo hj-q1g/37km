@@ -180,10 +180,10 @@ header {
   background-image: url(../image/items/toast_body.png);
   background-size: 100%;
   z-index: 100;
-  margin: 60px 50px;
 }
 
 .site-menu ul {
+  margin: 60px 50px;
 }
 
 .site-menu ul li {
