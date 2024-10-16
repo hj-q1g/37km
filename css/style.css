@@ -183,8 +183,8 @@ header {
 }
 
 .site-menu ul {
-  top: 50%;
-  left: 50%;
+  width: 1em;
+  margin: auto;
 }
 
 .site-menu ul li {
