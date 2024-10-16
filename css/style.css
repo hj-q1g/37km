@@ -184,13 +184,12 @@ header {
 }
 
 .site-menu ul {
-  margin: 50px 40px;
+  margin: 100px 60px;
 }
 
 .site-menu ul li {
   display: inline;
   margin-right: 10px;
-  line-height: 1.8em;
 }
 
 .site-menu a {
@@ -492,7 +491,13 @@ header {
 
   .site-menu {
     width: 95%;
+    height: 10%;
   }
+  
+  .site-menu a {
+  color: #FFD4CD;
+  font-size: 0.5em;
+}
 
   .toast-area,
   .toast-header,
