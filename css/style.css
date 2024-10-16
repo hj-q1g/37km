@@ -164,12 +164,12 @@ header {
 
 .lever {
   position: absolute;
-  width: 90px;
+  width: 60px;
   height: 70px;
   background-image: url(../image/items/toast_lever.png);
   background-size: 100%;
   top: 40px;
-  right: -70px;
+  right: -50px;
   z-index: 98;
 }
 
