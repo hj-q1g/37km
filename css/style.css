@@ -398,6 +398,10 @@ header {
   left: 10px;
 }
 
+.snslink a{
+  font-size: 1.25em;
+}
+
 /* フッター */
 
 .copyright {
