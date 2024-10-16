@@ -408,6 +408,10 @@ header {
 
 @media (max-width: 950px) {
 
+	header {
+  	width: 100%;
+}
+
   .lever {
     right: 0px;
   }
