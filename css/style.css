@@ -169,7 +169,7 @@ header {
   background-image: url(../image/items/toast_lever.png);
   background-size: 100%;
   top: 40px;
-  right: -50px;
+  right: -40px;
   z-index: 98;
 }
 
@@ -206,7 +206,7 @@ header {
   padding: 0;
   background: none;
   border: none;
-  margin-left: 15px;
+  margin-left: 30px;
   margin-bottom: 0;
 }
 
