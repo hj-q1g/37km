@@ -153,15 +153,6 @@ textarea {
     content: "";
 }
 
-.topic1 {
-	position: relative;
-}
-
-.topic2 {
-	position:absolute;
-	margin-top: 4px;
-}
-
 .stamp { font-size:18px; border:6px double #AF3939; border-radius:50%; color: #AF3939; width:120px; height:120px; position:relative; }
 .stamp span { display:inline-block; width:100%; text-align:center; }
 .stamp span:first-child::before { position:absolute; top:10px; left:0; right:0; margin:auto; width:80%; border-bottom:3px solid #AF3939; line-height:1; padding-bottom:6px; }
@@ -170,6 +161,10 @@ textarea {
 
 .stamp-approve span:first-child::before {
   content:"最終更新";
+}
+
+.stamp img{
+	width: 600px;
 }
 
 /* ヘッダー */
