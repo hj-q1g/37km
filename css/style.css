@@ -162,11 +162,11 @@ textarea {
 	margin-top: 4px;
 }
 
-.stamp { font-size:18px; border:4px double #AF3939; border-radius:50%; color: #AF3939; width:120px; height:120px; position:relative; }
+.stamp { font-size:18px; border:6px double #AF3939; border-radius:50%; color: #AF3939; width:120px; height:120px; position:relative; }
 .stamp span { display:inline-block; width:100%; text-align:center; }
 .stamp span:first-child::before { position:absolute; top:10px; left:0; right:0; margin:auto; width:80%; border-bottom:3px solid #AF3939; line-height:1; padding-bottom:6px; }
 .stamp span:first-child { line-height:100px; }
-.stamp span:last-child { position:absolute; top:70px; left:0; right:0; margin:auto; width:80%; border-top:3px solid #AF3939; padding-top:3px; line-height:1; }
+.stamp span:last-child { position:absolute; top:80px; left:0; right:0; margin:auto; width:80%; border-top:3px solid #AF3939; padding-top:3px; line-height:1; }
 
 .stamp-approve span:first-child::before {
   content:"最終更新";
