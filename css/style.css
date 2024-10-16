@@ -358,24 +358,6 @@ header {
   background-color: #fad470;
 }
 
-/* リンク */
-.bn-gallery {
-  margin-bottom: 20px;
-}
-
-.bn-gallery li {
-  display: inline;
-  margin: 5px 5px 10px 5px;
-}
-
-.bn-gallery2 {
-  margin-bottom: 20px;
-}
-
-.bn-gallery2 li {
-  margin: 5px 5px 15px 5px;
-}
-
 /* プロフィール */
 
 .box {
@@ -398,7 +380,7 @@ header {
 }
 
 .snslink a{
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
 /* フッター */
@@ -428,19 +410,10 @@ header {
 
   .lever {
     right: 0px;
-    bottom: 0px;
-    width: 20px;
-    aspect-ratio: 0.3/1;
-    object-fit: fill;
-		background-repeat: no-repeat;
   }
 
   .site-menu {
-    bottom: 0px;
     width: 90%;
-    aspect-ratio: 0.8/1;
-    object-fit: fill;
-		background-repeat: no-repeat;
   }
 
   .toast-area,
