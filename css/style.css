@@ -258,45 +258,6 @@ header {
   margin-bottom: 80px;
 }
 
-/* 更新履歴 */
-
-.Update-history {
-  height: 150px;
-  padding: 10px;
-  overflow: scroll;
-  overflow-x: hidden;
-  background-color: #fffbd0;
-  border-radius: 15px;
-  margin: 20px 5px 10px 5px;
-}
-
-.Update-history::-webkit-scrollbar {
-  width: 10px;
-}
-
-.Update-history::-webkit-scrollbar-track {
-  background-color: transparent;
-}
-
-.Update-history::-webkit-scrollbar-thumb {
-  background-color: transparent;
-}
-
-.Update-history dt {
-  line-height: 1.6em;
-}
-
-.Update-history dd {
-  margin-bottom: 15px;
-  border-left: 2px dotted #3c2810;
-  margin: 0 0 0 10px;
-  padding: 2px 0 8px 10px;
-}
-
-.Update-history dd:last-child {
-  margin-bottom: 0;
-}
-
 /* イラストギャラリー */
 
 .illust-gallery {
@@ -315,7 +276,7 @@ header {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin: 5px;
+  margin: 10px;
 }
 
 /* オーディオ  */
@@ -426,16 +387,6 @@ header {
   position: relative;
 }
 
-.box-half {
-  width: 48%;
-}
-
-.box-2row {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
 .box-title {
   display: inline;
   border-radius: 10px;
@@ -445,15 +396,6 @@ header {
   position: absolute;
   top: -15px;
   left: 10px;
-}
-
-.profimg img {
-  display: block;
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 30px;
-  object-fit: cover;
-  margin: 0 0 25px
 }
 
 /* フッター */
@@ -488,16 +430,20 @@ header {
   .lever {
     right: 0px;
     bottom: 0px;
+    width: 20px;
+    height: 50px;
+    object-fit: fill;
   }
 
   .site-menu {
     width: 95%;
-    height: 10%;
+    height: 80px;
+    object-fit: fill;
   }
   
   .site-menu a {
   color: #FFD4CD;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
   .toast-area,
