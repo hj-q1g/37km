@@ -168,7 +168,7 @@ header {
   height: 70px;
   background-image: url(../image/items/toast_lever.png);
   background-size: 100%;
-  top: 50px;
+  bottom: 0px;
   right: -40px;
   z-index: 98;
 }
@@ -189,12 +189,12 @@ header {
 
 .site-menu ul li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .site-menu a {
   color: #FFD4CD;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .site-menu a:hover {
@@ -429,7 +429,6 @@ header {
 
   .lever {
     right: 0px;
-    bottom: 0px;
     width: 20px;
     height: 50px;
     object-fit: fill;
