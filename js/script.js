@@ -8,12 +8,12 @@ function updatePlayButtonIcon() {
     var audio = players[i].querySelector("audio");
 
     if (currentAudio && currentAudio !== audio) {
-      playButton.innerHTML = '<i class="las la-music"></i>';
+      playButton.innerHTML = '<i class="ri-disc-line"></i>';
     } else {
       if (audio.paused) {
-        playButton.innerHTML = '<i class="las la-music"></i>';
+        playButton.innerHTML = '<i class="ri-disc-line"></i>';
       } else {
-        playButton.innerHTML = '×';
+        playButton.innerHTML = '<i class="ri-disc-fill"></i>';
       }
     }
   }
