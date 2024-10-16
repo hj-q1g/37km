@@ -183,13 +183,11 @@ header {
 }
 
 .site-menu ul {
-  width: 800px;
-  margin: auto;
+	text-align: center;
 }
 
 .site-menu ul li {
   display: inline;
-  margin-right: 20px;
 }
 
 .site-menu a {
@@ -442,7 +440,7 @@ header {
   .site-menu {
     bottom: 0px;
     width: 90%;
-    height: 1vh;
+    height: 10vh;
     aspect-ratio: 1/0.8;
     object-fit: fill;
   }
