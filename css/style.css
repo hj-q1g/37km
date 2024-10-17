@@ -32,7 +32,7 @@ img {
 /* これを入れるとメニューでの移動がスムーズになる */
 html {
   scroll-behavior: smooth;
-	scrollbar-color: #00a497 #a3d6cc;
+	scrollbar-color: #418b89 #a3d6cc;
     scrollbar-width: auto;
 }
 
@@ -426,7 +426,7 @@ header {
   }
 	
 	.main-contents {
-		margin-right: 6%;
+		margin-right: 5%;
 }
 
   .toast-area,
