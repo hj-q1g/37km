@@ -426,13 +426,13 @@ header {
   }
 	
 	.main-contents {
-		margin-right: 5%;
+		margin-right: 3%;
 }
 
   .toast-area,
   .toast-header,
   .toast-footer {
-    width: 80%;
+    width: 88%;
     background-size: 100%;
   }
 
