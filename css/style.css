@@ -380,7 +380,7 @@ header {
 }
 
 .snslink a{
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 /* フッター */
@@ -428,7 +428,7 @@ header {
   .toast-footer {
     width: 80%;
     background-size: 100%;
-	left: 45%;
+	left: 40%;
   }
 
   .toast-header,
