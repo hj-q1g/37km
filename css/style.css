@@ -414,13 +414,13 @@ header {
 
   .lever {
 	right: 0px;
-    left: 85%;
+    left: 90%;
 	background-size: 100% 100%;
   }
 
   .site-menu {
 	background-size: 100% 100%;
-    width: 90%;
+    width: 95%;
   }
 
   .toast-area,
