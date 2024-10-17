@@ -422,13 +422,16 @@ header {
 	background-size: 100% 100%;
     width: 95%;
   }
+	
+	.main-contents {
+	left: 45%;
+}
 
   .toast-area,
   .toast-header,
   .toast-footer {
     width: 80%;
     background-size: 100%;
-	left: 40%;
   }
 
   .toast-header,
