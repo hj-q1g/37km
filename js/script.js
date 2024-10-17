@@ -41,22 +41,6 @@ for (var i = 0; i < players.length; i++) {
       updatePlayButtonIcon();
     });
 
-    stopButton.addEventListener("click", function() {
-      audio.currentTime = 0; // 曲を最初に戻す
-      audio.pause(); // 曲を停止
-      updatePlayButtonIcon();
-    });
-
-    loopButton.addEventListener("click", function() {
-      if (audio.loop) {
-        audio.loop = false;
-        loopButton.classList.remove("active"); // ループが解除されたらactiveクラスを削除
-      } else {
-        audio.loop = true;
-        loopButton.classList.add("active"); // ループが設定されたらactiveクラスを追加
-      }
-    });
-
     // ページ読み込み時にボタンアイコンを更新
     updatePlayButtonIcon();
   })(i);
