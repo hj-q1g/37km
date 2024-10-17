@@ -424,7 +424,7 @@ header {
   }
 	
 	.main-contents {
-	left: 45%;
+		margin-right: 10%;
 }
 
   .toast-area,
