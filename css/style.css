@@ -32,6 +32,8 @@ img {
 /* これを入れるとメニューでの移動がスムーズになる */
 html {
   scroll-behavior: smooth;
+	scrollbar-color: #88bfbf #a1d8e2;
+    scrollbar-width: thin;
 }
 
 .kiwi-maru-regular {
@@ -424,7 +426,7 @@ header {
   }
 	
 	.main-contents {
-		margin-right: 10%;
+		margin-right: 7%;
 }
 
   .toast-area,
