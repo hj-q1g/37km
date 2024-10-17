@@ -428,6 +428,7 @@ header {
   .toast-footer {
     width: 80%;
     background-size: 100%;
+	left: 48%;
   }
 
   .toast-header,
