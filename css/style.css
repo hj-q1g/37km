@@ -32,7 +32,7 @@ img {
 /* これを入れるとメニューでの移動がスムーズになる */
 html {
   scroll-behavior: smooth;
-	scrollbar-color: #00ac9a #a3d6cc;
+	scrollbar-color: #00a497 #a3d6cc;
     scrollbar-width: auto;
 }
 
