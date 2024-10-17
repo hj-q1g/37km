@@ -413,7 +413,9 @@ header {
 }
 
   .lever {
-    left: 88%;
+	right: 0px;
+    left: 85%;
+	background-size: 100% 100%;
   }
 
   .site-menu {
