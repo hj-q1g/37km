@@ -8,12 +8,12 @@ function updatePlayButtonIcon() {
     var audio = players[i].querySelector("audio");
 
     if (currentAudio && currentAudio !== audio) {
-      playButton.innerHTML = '<i class="ri-disc-line"></i>';
+      playButton.innerHTML = '<i class="ph-duotone ph-music-notes"></i>';
     } else {
       if (audio.paused) {
-        playButton.innerHTML = '<i class="ri-disc-line"></i>';
+        playButton.innerHTML = '<i class="ph-duotone ph-music-notes"></i>';
       } else {
-        playButton.innerHTML = '<i class="ri-disc-fill"></i>';
+        playButton.innerHTML = '<i class="ph-fill ph-music-notes"></i>';
       }
     }
   }
