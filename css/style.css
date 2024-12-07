@@ -436,6 +436,7 @@ header {
   line-height: 50px;
   font-size: 22px;
   border: none;
+	  text-align: center;
 }
 
 /* スマホ対応 */
