@@ -427,8 +427,8 @@ header {
 }
 
 .shoptag {
-  width: 100px;
-  height: 30px;
+  width: 200px;
+  height: 50px;
   background-color: #fff;
   color: #3c2810;
   border-radius: 8px;
@@ -436,7 +436,6 @@ header {
   line-height: 50px;
   font-size: 22px;
   border: none;
-  cursor: pointer;
 }
 
 /* スマホ対応 */
