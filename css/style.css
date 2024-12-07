@@ -407,6 +407,34 @@ header {
   height: 180px;
 }
 
+/* 追加 */
+
+.shoptag {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    padding: 0 6rem;
+    box-sizing: border-box;
+    background-color: #fefefe;
+}
+
+shoptagtext {
+    position: relative;
+    padding: 15px 15px 15px 30px;
+    background-image:
+        radial-gradient(circle, white 2px, #bf4740 3px 7px, transparent 8px),
+        linear-gradient(135deg, transparent 10px, #ddcdb3 11px),
+        linear-gradient(45deg, transparent 10px, #ddcdb3 11px);
+    background-repeat: no-repeat;
+    background-size: 25px, 100% 50%, 100% 50%;
+    background-position: left, top, bottom;
+    font-weight: bold;
+    font-size: 26px;
+    overflow: hidden;
+}
+
 /* スマホ対応 */
 
 @media (max-width: 950px) {
