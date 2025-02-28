@@ -409,6 +409,7 @@ header {
 .box-2row {
 	position: absolute;
 	right: 10px;
+	top: 10px;
 	width: 250px;
 }
 
