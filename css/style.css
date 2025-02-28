@@ -415,7 +415,7 @@ header {
 
 .box img {
 	position: absolute;
-	display: inline-block;
+	display: inline;
 	width: 200px;
 }
 	
