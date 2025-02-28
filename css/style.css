@@ -382,8 +382,10 @@ header {
   left: 10px;
 }
 
-.snslink a{
-  font-size: 1.4em;
+.box-2row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 /* フッター */
@@ -407,37 +409,9 @@ header {
   height: 180px;
 }
 
-/* 追加 */
+/* 試す用のスペース↓ */
 
-.shop-gallery {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	gap: 5px;
-}
-
-.shop-gallery li {
-	position: relative;
-}
-
-.shop-gallery li img {
-	padding: 5px;
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
-}
-
-.shoptag {
-  width: 200px;
-  height: 50px;
-  background-color: #fff;
-  color: #3c2810;
-  border-radius: 8px;
-  margin: 0 8px 0;
-  line-height: 50px;
-  font-size: 22px;
-  border: none;
-	  text-align: center;
-}
+/* 試す用のスペース↑ */
 
 /* スマホ対応 */
 
