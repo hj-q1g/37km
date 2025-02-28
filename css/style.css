@@ -407,12 +407,14 @@ header {
 /* 試す用のスペース↓ */
 
 .box-2row {
-  display: flex;
-  justify-content: flex-end;
-width: 250px;
+	display: grid;
+	justify-content: flex-end;
+	width: 250px;
 }
 
 .box img {
+	display: grid;
+	justify-content: flex-start;
 	width: 200px;
 }
 	
@@ -468,9 +470,7 @@ width: 250px;
   }
 
 .box-2row {
-  display: flex;
-  align-items: flex-start;
-  padding: 10px;
+	padding-right: 10px;
 }
 
 }
