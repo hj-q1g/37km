@@ -408,7 +408,7 @@ header {
 
 .box-2row {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-end;
 width: 250px;
 }
 
@@ -470,6 +470,7 @@ width: 250px;
 .box-2row {
   display: flex;
   align-items: flex-start;
+  padding: 10px;
 }
 
 }
