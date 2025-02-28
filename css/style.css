@@ -264,7 +264,7 @@ header {
 .illust-gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-	gap: 5px;
+	gap: 3px;
 }
 
 .illust-gallery li {
@@ -278,7 +278,7 @@ header {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  margin: 5px;
+  margin: 10px;
 }
 
 /* オーディオ  */
