@@ -409,6 +409,7 @@ header {
 .box-2row {
   display: flex;
   align-items: flex-end;
+width: 250px;
 }
 
 .box img {
