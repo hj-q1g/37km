@@ -408,12 +408,14 @@ header {
 
 .box-2row {
 	position: absolute;
-	display: inline;
+	display: inline-block;
 	right: 10px;
 	width: 300px;
 }
 
 .box img {
+	position: absolute;
+	display: inline-block;
 	width: 200px;
 }
 	
@@ -470,7 +472,6 @@ header {
 
 .box-2row {
 	width: 220px;
-	display: block;
 }
 
 }
