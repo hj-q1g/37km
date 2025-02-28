@@ -408,7 +408,7 @@ header {
 
 .box-2row {
 	position: absolute;
-	display: inline-block;
+	display: inline;
 	right: 10px;
 }
 
