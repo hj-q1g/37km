@@ -470,7 +470,7 @@ header {
 
 .box-2row {
 	width: 220px;
-	display: flex;
+	display: block;
 }
 
 }
