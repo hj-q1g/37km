@@ -382,11 +382,6 @@ header {
   left: 10px;
 }
 
-.box-2row {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
 
 /* フッター */
 
@@ -411,6 +406,15 @@ header {
 
 /* 試す用のスペース↓ */
 
+.box-2row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.box img {
+	width: 200px;
+}
+	
 /* 試す用のスペース↑ */
 
 /* スマホ対応 */
@@ -461,5 +465,10 @@ header {
     margin: 10px 20px 0 20px;
     font-size: 16px;
   }
+
+.box-2row {
+  display: flex;
+  align-items: flex-start;
+}
 
 }
