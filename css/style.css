@@ -414,6 +414,9 @@ header {
 
 .box img {
 	width: 200px;
+	background-color: #ffffff;
+  	padding: 5px;
+  	border-radius: 15px;
 }
 	
 /* 試す用のスペース↑ */
