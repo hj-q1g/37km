@@ -122,14 +122,6 @@ textarea {
 	font-family: "Kiwi Maru", sans-serif;
 }
 
-.photoimg img {
-	background-color: #ffffff;
-	padding: 5px;
-	border-radius: 30px;
-	object-fit: cover;
-	margin: 0px
-}
-
 /* トップ */
 
 .top {
@@ -272,7 +264,7 @@ header {
 }
 
 .illust-gallery li img {
-	background-color: #ffffff;
+	background-color: #fff;
 	padding: 5px;
 	border-radius: 15px;
 	width: 100px;
@@ -412,12 +404,16 @@ header {
 	right: 10px;
 }
 
-.shopping img {
-	width: 200px;
-	background-color: #ffffff;
+.box img {
+	max-width: 200px;
+}
+
+.photoimg img {
+	background-color: #fff;
 	padding: 5px;
 	border-radius: 30px;
-	margin: 0px;
+	object-fit: cover;
+	margin: 0px
 }
 	
 /* 試す用のスペース↑ */
