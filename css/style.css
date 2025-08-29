@@ -256,7 +256,7 @@ header {
 .illust-gallery {
 	overflow-x: hidden;
 	overflow-y: scroll;
-	scrollbar-color: #3c2810 #f49048;
+	scrollbar-color: #f49048 #fad470;
 	height: 400px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -476,5 +476,6 @@ header {
 	}
 
 }
+
 
 
