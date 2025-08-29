@@ -254,7 +254,9 @@ header {
 /* イラストギャラリー */
 
 .illust-gallery {
+	overflow-x: hidden;
 	overflow-y: scroll;
+	scrollbar-color: #3c2810 #f49048;
 	height: 400px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -474,4 +476,5 @@ header {
 	}
 
 }
+
 
