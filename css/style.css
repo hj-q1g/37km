@@ -137,7 +137,7 @@ textarea {
 .top:before {
 	position: absolute;
 	top: 100%;
-	left: 60%;
+	left: 55%;
 	height: 0;
 	width: 0;
 	border-style: solid;
@@ -476,6 +476,7 @@ header {
 	}
 
 }
+
 
 
 
