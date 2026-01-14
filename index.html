@@ -21,12 +21,12 @@
 			<a href="#"><div class="lever"></div></a>
 				<nav class="site-menu">
 					<ul>
-						<li><a href="#about"><i class="ph-duotone ph-house"></i></a></li>
-						<li><a href="#illust"><i class="ph-duotone ph-palette"></i></a></li>
-						<li><a href="#shop"><i class="ph-duotone ph-shopping-cart"></i></a></li>
-						<li><a href="#contents"><i class="ph-duotone ph-game-controller"></i></a></li>
-						<li><a href="#message"><i class="ph-duotone ph-envelope"></i></a></li>
-						<li><a href="#bookmark"><i class="ph-duotone ph-bookmark-simple"></i></a></li>
+						<li><a href="#about" aria-label="『ようこそ』カテゴリに移動"><i class="ph-duotone ph-house"></i></a></li>
+						<li><a href="#illust" aria-label="『絵』カテゴリに移動"><i class="ph-duotone ph-palette"></i></a></li>
+						<li><a href="#shop" aria-label="『ショップ』カテゴリに移動"><i class="ph-duotone ph-shopping-cart"></i></a></li>
+						<li><a href="#contents" aria-label="『コンテンツ』カテゴリに移動"><i class="ph-duotone ph-game-controller"></i></a></li>
+						<li><a href="#message" aria-label="『メッセージ』カテゴリに移動"><i class="ph-duotone ph-envelope"></i></a></li>
+						<li><a href="#bookmark" aria-label="『ブックマーク』カテゴリに移動"><i class="ph-duotone ph-bookmark-simple"></i></a></li>
 					</ul>
 				</nav>
 		</header>
@@ -205,7 +205,7 @@
 							<p>作曲：beco(騒音のない世界)さま<br>作詞：ジャック・オ・蘭たん(ナポリの男たち)さま<br>UST：都丸琳さま</p>
 							<div class="audio_player">
 								<audio src="./audio/TakatsukiOnesidelover.mp3"></audio>
-								<button class="playbutton"><i class="ph-duotone ph-music-notes" alt="曲を再生"></i></button>
+								<button class="playbutton" alt="曲を再生"><i class="ph-duotone ph-music-notes"></i></button>
 							</div>
 							<details>
 								<summary class="longbutton">歌詞を見る</summary>
@@ -237,7 +237,7 @@
 						<div class="toast-text">
 							<h2>メッセージ</h2>
 							<p>返信不要な方向けの匿名メッセージフォームです。<br>応援や作品の感想などをくれると嬉しいです</p>
-							<form name="contact" method="POST" data-netlify="true">
+							<form name="contact" method="POST" data-netlify="true" aria-label="メッセージ">
 								<p><textarea class="input-message" name="message"></textarea></p>
 								<p><button class="submit-button" type="submit">送信!</button></p>
 								<details>
@@ -295,6 +295,7 @@
 </body>
 
 </html>
+
 
 
 
