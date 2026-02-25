@@ -8,12 +8,12 @@ function updatePlayButtonIcon() {
     var audio = players[i].querySelector("audio");
 
     if (currentAudio && currentAudio !== audio) {
-      playButton.innerHTML = '<i class="ph-duotone ph-music-notes"></i>';
+      playButton.innerHTML = '♪';
     } else {
       if (audio.paused) {
-        playButton.innerHTML = '<i class="ph-duotone ph-music-notes"></i>';
+        playButton.innerHTML = '♪';
       } else {
-        playButton.innerHTML = '<i class="ph-fill ph-music-notes"></i>';
+        playButton.innerHTML = '♪';
       }
     }
   }
@@ -45,3 +45,4 @@ for (var i = 0; i < players.length; i++) {
     updatePlayButtonIcon();
   })(i);
 }
+
