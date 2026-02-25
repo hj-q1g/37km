@@ -18,17 +18,24 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<a href="#" aria-label="ページの一番上に移動"><div class="lever"></div></a>
-				<nav class="site-menu">
-					<ul>
-						<li><a href="#about" aria-label="『ようこそ』カテゴリに移動"><i class="ph-duotone ph-house"></i></a></li>
-						<li><a href="#illust" aria-label="『絵』カテゴリに移動"><i class="ph-duotone ph-palette"></i></a></li>
-						<li><a href="#shop" aria-label="『ショップ』カテゴリに移動"><i class="ph-duotone ph-shopping-cart"></i></a></li>
-						<li><a href="#contents" aria-label="『コンテンツ』カテゴリに移動"><i class="ph-duotone ph-game-controller"></i></a></li>
-						<li><a href="#message" aria-label="『メッセージ』カテゴリに移動"><i class="ph-duotone ph-envelope"></i></a></li>
-						<li><a href="#bookmark" aria-label="『ブックマーク』カテゴリに移動"><i class="ph-duotone ph-bookmark-simple"></i></a></li>
-					</ul>
-				</nav>
+			<div class=”popup_wrap”>
+				<input id=”trigger” type=”checkbox”>
+				<div class=”popup_overlay”>
+					<label for=”trigger” class=”popup_trigger”></label>
+					<div class=”popup_content”>
+						<label for=”trigger” class=”close_btn”>×</label>
+						<ul>
+							<li><a href="#about" aria-label="『ようこそ』カテゴリに移動">ようこそ</a></li>
+							<li><a href="#illust" aria-label="『絵』カテゴリに移動">絵</a></li>
+							<li><a href="#shop" aria-label="『ショップ』カテゴリに移動">ショップ</a></li>
+							<li><a href="#contents" aria-label="『コンテンツ』カテゴリに移動">コンテンツ</a></li>
+							<li><a href="#message" aria-label="『メッセージ』カテゴリに移動">メッセージ</a></li>
+							<li><a href="#bookmark" aria-label="『ブックマーク』カテゴリに移動">ブックマーク</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<label for=”trigger” class=”lever”></label>
 		</header>
 		<main>
 			<div class="title-area">
@@ -40,10 +47,10 @@
 					<div class="toast-text">
 						<h2>ようこそ</h2>
 						<div class="top">
-							<p><strong>くまのにこげ</strong>は<strong>くま</strong>の個人サイトです。<br>インターネットの端っこでぴょんぴょんやっています。<br>何卒よろしくお願いいたします</p>
+							<p><strong>くまのにこげ</strong>は<strong>くま</strong>が運営する個人サイトです。<br>インターネットの端っこでぴょんぴょんやっています。<br>何卒よろしくお願いいたします</p>
 						</div>
 						<img src="./image/items/top.webp" alt="">
-						<p style="text-align: right">最終更新日：2026/01/14</p>
+						<p style="text-align: right">最終更新日：2026/02/25</p>
 					</div>
 				</div>
 				<div class="toast-footer"></div>
@@ -205,7 +212,7 @@
 							<p>作曲：beco(騒音のない世界)さま<br>作詞：ジャック・オ・蘭たん(ナポリの男たち)さま<br>UST：都丸琳さま</p>
 							<div class="audio_player">
 								<audio src="./audio/TakatsukiOnesidelover.mp3"></audio>
-								<button class="playbutton" aria-label="曲を再生"><i class="ph-duotone ph-music-notes"></i></button>
+								<button class="playbutton" aria-label="曲を再生">♪</button>
 							</div>
 							<details>
 								<summary class="longbutton">歌詞を見る</summary>
@@ -295,6 +302,7 @@
 </body>
 
 </html>
+
 
 
 
