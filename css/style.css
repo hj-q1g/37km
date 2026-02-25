@@ -137,7 +137,7 @@ textarea {
 .top:before {
 	position: absolute;
 	top: 100%;
-	left: 55%;
+	left: 40%;
 	height: 0;
 	width: 0;
 	border-style: solid;
@@ -165,7 +165,7 @@ header {
 	background-size: 100%;
 	bottom: 0px;
 	right: -40px;
-	z-index: 99;
+	z-index: 98;
 }
 
 .site-menu {
@@ -254,9 +254,7 @@ header {
 /* イラストギャラリー */
 
 .illust-gallery {
-	overflow-x: hidden;
 	overflow-y: scroll;
-	scrollbar-color: #f49048 #fad470;
 	height: 400px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
@@ -476,20 +474,3 @@ header {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
