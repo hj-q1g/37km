@@ -158,14 +158,14 @@ header {
 }
 
 .lever {
-	position: relative;
+	position: absolute;
 	width: 60px;
 	height: 70px;
 	background-image: url(../image/items/toast_lever.png);
 	background-size: 100%;
 	bottom: 0px;
 	right: -40px;
-	z-index: 98;
+	z-index: 99;
 }
 
 .site-menu {
@@ -476,6 +476,7 @@ header {
 	}
 
 }
+
 
 
 
