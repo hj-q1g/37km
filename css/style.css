@@ -158,7 +158,6 @@ header {
 }
 
 .lever {
-	display:block;
 	position: absolute;
 	width: 60px;
 	height: 70px;
@@ -477,6 +476,7 @@ header {
 	}
 
 }
+
 
 
 
