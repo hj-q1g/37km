@@ -177,23 +177,6 @@ header {
 	z-index: 100;
 }
 
-.site-menu ul {
-	text-align: center;
-}
-
-.site-menu ul li {
-	display: inline;
-}
-
-.site-menu a {
-	color: #FBE8BA;
-	font-size: 40px;
-}
-
-.site-menu a:hover {
-	color: #FFBC5C;
-}
-
 /* タイトルエリア */
 
 .title-area {
@@ -539,6 +522,7 @@ transform: translateY(50px);
 	}
 
 }
+
 
 
 
