@@ -410,14 +410,12 @@ display: none;
 
 .popup_overlay {
 display: absolute;
-justify-content: center;
-overflow: auto;
 position: fixed;
 top: 0;
 left: 0;
-z-index: 1;
-width: 100%;
-height: 100%;
+opacity: 0;
+bottom: 0;
+right: 0;
 background: rgba(0, 0, 0, 0.7);
 }
 
@@ -451,16 +449,6 @@ color: #fff;
 border-radius:15px;
 line-height:14px;
 font-weight:bold;
-}
-
-.popup_wrap input:checked ~ .popup_overlay {
-opacity: 1;
-transform: scale(1);
-transition: opacity 0.5s;
-}
-
-.popup_wrap input:checked ~ .popup_overlay .popup_content{
-transform: translateY(50px);
 }
 	
 /* 試す用のスペース↑ */
@@ -519,6 +507,7 @@ transform: translateY(50px);
 	}
 
 }
+
 
 
 
