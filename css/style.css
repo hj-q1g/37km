@@ -158,8 +158,7 @@ header {
 }
 
 .lever {
-	content: '';
-	position: absolute;
+	position: relative;
 	width: 60px;
 	height: 70px;
 	background-image: url(../image/items/toast_lever.png);
@@ -477,6 +476,7 @@ header {
 	}
 
 }
+
 
 
 
