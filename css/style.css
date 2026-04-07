@@ -258,7 +258,8 @@ header {
 	height: 400px;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-	gap: 3px;
+	gap: 2px;
+	scrollbar-color: #b83d14 #fad470;
 }
 
 .illust-gallery li {
