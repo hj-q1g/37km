@@ -198,12 +198,12 @@ header {
 
 .title-area {
 	position: relative;
-	height: 90vh;
+	height: 70vh;
 }
 
 .title-area img {
 	position: absolute;
-	width: 800px;
+	width: 600px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
