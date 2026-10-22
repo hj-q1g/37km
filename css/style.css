@@ -383,8 +383,8 @@ header {
 
 model-viewer {
   width: 600px;
-  height: 600px;
-  background-color: #fff;
+  height: 400px;
+  background-color: #CCFFCC;
 }
 model-viewer#reveal {
     --poster-color: transparent;
