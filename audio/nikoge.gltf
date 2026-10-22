@@ -4,7 +4,9 @@
 		"version":"2.0"
 	},
 	"extensionsUsed":[
+		"KHR_materials_clearcoat",
 		"KHR_materials_specular",
+		"KHR_materials_sheen",
 		"KHR_materials_ior"
 	],
 	"scene":0,
@@ -26,8 +28,19 @@
 		{
 			"doubleSided":true,
 			"extensions":{
+				"KHR_materials_clearcoat":{
+					"clearcoatRoughnessFactor":0
+				},
 				"KHR_materials_specular":{
 					"specularFactor":0
+				},
+				"KHR_materials_sheen":{
+					"sheenColorFactor":[
+						1.0,
+						1.0,
+						1.0
+					],
+					"sheenRoughnessFactor":1
 				},
 				"KHR_materials_ior":{
 					"ior":1
@@ -75,7 +88,7 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":12887,
+			"count":12884,
 			"max":[
 				0.6368124485015869,
 				1.3910633325576782,
@@ -91,45 +104,45 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":12887,
+			"count":12884,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":12887,
+			"count":12884,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":55911,
+			"count":55905,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":154644,
+			"byteLength":154608,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":154644,
-			"byteOffset":154644,
+			"byteLength":154608,
+			"byteOffset":154608,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":103096,
-			"byteOffset":309288,
+			"byteLength":103072,
+			"byteOffset":309216,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":111822,
-			"byteOffset":412384,
+			"byteLength":111810,
+			"byteOffset":412288,
 			"target":34963
 		}
 	],
@@ -137,13 +150,13 @@
 		{
 			"magFilter":9729,
 			"minFilter":9987,
-			"wrapS":33648,
-			"wrapT":33648
+			"wrapS":33071,
+			"wrapT":33071
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":524208,
+			"byteLength":524100,
 			"uri":"nikoge.bin"
 		}
 	]
