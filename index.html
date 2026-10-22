@@ -12,23 +12,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap" rel="stylesheet">
-	<script src="https://unpkg.com/@phosphor-icons/web"></script>
+	<!-- コンポーネントをCDNで読み込む -->
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 
 <body>
 	<div class="wrapper">
 		<header>
 			<a href="#"><div class="lever"></div></a>
-				<nav class="site-menu">
-					<ul>
-						<li><a href="#about"><i class="ph-duotone ph-house"></i></a></li>
-						<li><a href="#illust"><i class="ph-duotone ph-palette"></i></a></li>
-						<li><a href="#shop"><i class="ph-duotone ph-shopping-cart"></i></a></li>
-						<li><a href="#contents"><i class="ph-duotone ph-game-controller"></i></a></li>
-						<li><a href="#message"><i class="ph-duotone ph-envelope"></i></a></li>
-						<li><a href="#bookmark"><i class="ph-duotone ph-bookmark-simple"></i></a></li>
-					</ul>
-				</nav>
 		</header>
 		<main>
 			<div class="title-area">
@@ -43,7 +35,7 @@
 							<p><strong>くまのにこげ</strong>は<strong>くま</strong>が運営する個人サイトです。<br>絵をかくなどしています。<br>何卒よろしくお願いいたします</p>
 						</div>
 						<img src="./image/items/top.webp" alt="">
-						<p style="text-align: right">最終更新日：2026/08/15</p>
+						<p style="text-align: right">最終更新日：2026/10/22</p>
 					</div>
 				</div>
 				<div class="toast-footer"></div>
@@ -177,6 +169,10 @@
 							<h2>コンテンツ</h2>
 							<div class="photoimg">
 								<p>イラスト以外の作品たちです</p>
+								<h3>3DCG</h3>
+								<p>Blenderでつくりました</p>
+								<model-viewer id="reveal" loading="lazy" camera-controls auto-rotate poster="hoge.png" src="nikoge.gltf"  exposure="0.6" alt="オリジナルキャラクターの3Dモデル"></model-viewer>
+								<br>
 								<h3>ゲーム</h3>
 								<p>休憩中なので完成はだいぶ後になると思います</p>
 								<h4>タイトル未定1</h4>
@@ -277,7 +273,6 @@
 					<div class="toast-footer"></div>
 		</main>
 		<footer>
-			<p class="copyright">&copy; 2023-2026 くまのにこげ. Designed by <a href="https://nizika-art.com/" target="_blank">虹のきれはし</a>.</p>
 			<div class="dummy-area"></div>
 		</footer>
 	</div>
