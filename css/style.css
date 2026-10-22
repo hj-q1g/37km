@@ -162,6 +162,15 @@ header {
 	z-index: 98;
 }
 
+.site-menu {
+	position: relative;
+	width: 900px;
+	height: 100px;
+	background-image: url(../image/items/toast_body.png);
+	background-size: 100%;
+	z-index: 100;
+}
+
 /* タイトルエリア */
 
 .title-area {
@@ -373,7 +382,7 @@ header {
 }
 
 model-viewer {
-  width: 550px;
+  width: 600px;
   height: 600px;
   background-color: #fff;
 }
