@@ -373,9 +373,9 @@ header {
 }
 
 model-viewer {
-  width: 650px;
+  width: 550px;
   height: 600px;
-  background-color: #99CC99;
+  background-color: #fff;
 }
 model-viewer#reveal {
     --poster-color: transparent;
