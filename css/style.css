@@ -390,6 +390,11 @@ model-viewer#reveal {
     --poster-color: transparent;
 }
 
+.wrapper {
+    min-width: 30%;
+    max-width: 90%;
+}
+
 /* テスト↑ */
 
 /* スマホ対応 */
