@@ -437,6 +437,10 @@ model-viewer#reveal {
 
 }
 
+body {
+	background-size: cover;
+}
+
 @media (max-width: 500px) {
 
 	.toast-text {
