@@ -391,8 +391,8 @@ model-viewer#reveal {
 }
 
 .wrapper {
-    min-width: 30%;
-    max-width: 90%;
+    width: 800px;
+    max-width: 100%;
 }
 
 /* テスト↑ */
