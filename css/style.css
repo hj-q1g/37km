@@ -435,11 +435,9 @@ model-viewer#reveal {
 		position: static;
 	}
 
-}
-
-body {
-	background-size: cover;
-}
+	body {
+		background-size: 100%;
+	}
 
 @media (max-width: 500px) {
 
