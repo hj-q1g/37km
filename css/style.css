@@ -154,6 +154,7 @@ header {
 .lever {
 	position: absolute;
 	width: 60px;
+	max-width: 100%;
 	height: 70px;
 	background-image: url(../image/items/toast_lever.png);
 	background-size: 100%;
@@ -382,17 +383,13 @@ header {
 }
 
 model-viewer {
-  width: 600px;
-  height: 400px;
-  background-color: #CCFFCC;
+	width: 600px;
+	max-width: 100%;
+	height: 400px;
+	background-color: #CCFFCC;
 }
 model-viewer#reveal {
     --poster-color: transparent;
-}
-
-.wrapper {
-    width: 800px;
-    max-width: 100%;
 }
 
 /* テスト↑ */
