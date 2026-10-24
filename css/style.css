@@ -431,9 +431,6 @@ model-viewer#reveal {
 		width: 90%;
 	}
 
-	.box p {
-		position: static;
-	}
 }
 
 @media (max-width: 500px) {
