@@ -431,6 +431,14 @@ model-viewer#reveal {
 		width: 90%;
 	}
 
+	.box p {
+	position: static;
+	}
+
+	body {
+			background-size: 100%;
+	}
+
 }
 
 @media (max-width: 500px) {
